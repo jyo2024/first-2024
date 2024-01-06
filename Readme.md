@@ -330,6 +330,83 @@ ececute all
 
 https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/my-profile
 
+#shell scripting:
+https://www.youtube.com/watch?v=v-F3YLd6oMw
+https://www.youtube.com/watch?v=BFMyUgF6I8Y
+
+Shell scripting bash-5.2
+
+#variables
+Name="Jyo"
+echo "My name is ${Name}"
+
+if we execute like ./myscript.sh
+My name is Jyo
+
+#user input
+read -p "enter your name: " Name
+echo "hello $Name, nice to meet you"
+
+if we execute
+My name is 
+enter your name: Jyo
+hello Jyo, nice to meet you
+
+Simple for loop
+Names="Brad kevin"
+for Name in $Names
+  do
+    echo "Hello $Name"
+done
+
+For loop to rename files
+Files=$(ls *.txt)
+New="new"
+for file in $files
+  do 
+    echo "renaming $file to new-$file"
+	mv $file $new-$file
+done
+	
+executing will get
+renaming 1,txt to new-1.txt
+
+
+While loop reading the para
+Function with params
+
+
+
+
+#Git
+: 2.43.0
+https//www.youtube.com/watch?v=RGOj5yH7evk
+https://github.com/jyo2024
+
+clone: being repo that is hosted somewhere github into a local machine
+add: track your files and changes in git
+commit: save
+push : upload
+pull: download
+
+
+
+#Powershell: check the powershell all videos
+https://www.youtube.com/watch?v=b7SGPchYRn0
+7.4.0 
+
+
+
+
+
+	
+
+
+
+
+
+
+
 
 
 
