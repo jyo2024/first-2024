@@ -330,6 +330,23 @@ ececute all
 
 https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/my-profile
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #shell scripting:
 https://www.youtube.com/watch?v=v-F3YLd6oMw
 https://www.youtube.com/watch?v=BFMyUgF6I8Y
@@ -378,6 +395,10 @@ Function with params
 
 
 
+
+
+
+
 #Git
 : 2.43.0
 https//www.youtube.com/watch?v=RGOj5yH7evk
@@ -391,19 +412,66 @@ pull: download
 
 
 
-#Powershell: check the powershell all videos
-https://www.youtube.com/watch?v=b7SGPchYRn0
+#Powershell:
+https://www.youtube.com/watch?v=ZOoCaWyifmI
+[https://www.youtube.com/watch?v=b7SGPchYRn0](https://www.youtube.com/watch?v=UVUd9_k9C6A)
 7.4.0 
 
+PS C:\Users\Jyothsna>   Set-ExecutionPolicy Restricted
+			Get-ExecutionPolicy
+   			Set-ExecutionPolicy RemoteSigned
+Open Powershell ISE 	file and create new
+			Write-Host "Hello World!"
+   			Save and run
+
+$Normal= "907"
+If ($Normal -eq 908) {
+        Write-Host "Normal"
+    } Else {
+        Write-Host "Diff"
+    }
+
+Diff
+
+$Normal= "908"
+If ($Normal -eq 908) {
+        Write-Host "Normal"
+    } Else {
+        Write-Host "Diff"
+    }
+
+Normal
+
+#For:
+$Names = @('Master', 'Blaster')
+For($Counter =0; $Counter -le ($Names.Length -1); $Counter++){
+	Write-Host "Hey super" @Names[$$ounter]
+ }
+
+ Checkthis
 
 
+      			
+In Powershell		Get-Command -CommandTyper Cmdlet
+			Get-Help
+			Get-Help Write-Host Full
+			$FAVCHARACTER = "Josh"
+   			$FAVCHARACTER
+      			Josh
+	 		$FAVCHARACTER | out-File some.txt
+    			cat .\some.txt
+       			Josh
+	  		$FAVCHARACTER. GetType{}
+     			$FAVCHARACTER.Length
+			$Fellow.Add("item3", "item4")
+   			Fellow
+      			$Fellow.Set_time ("item4", "item3")
+	 		$Fellow.Remove("item3")
+      			
+      			
+      
 
-
-	
-
-
-
-
+   
 
 
 
