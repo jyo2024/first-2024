@@ -506,7 +506,31 @@ After making the connection, the web browser will request for the web page from 
 As soon as the web server receives this request, it immediately responds by sending back the requested page or file to the web browser HTTP.
 If the web page requested by the browser does not exist or if there occurs some error in the process, the web server will return an error message.
 If there occurs no error, the browser will successfully display the webpage.
- 
+
+
+ Nginx:
+ https://www.youtube.com/watch?v=7VAI73roXaY
+
+ Niginx follow the scalling proces and encryption 
+ version 1.25
+ and port number is 8080
+
+ In nginx we have serving static content
+ 		  mime types
+     		  location content
+	 	  rewrites and redirect
+     
+
+ events{
+ 	worker_connections 1024;
+  }
+
+  events is context and worker_connections are directives
+
+  Maven:
+  
+
+  
 
  
  
