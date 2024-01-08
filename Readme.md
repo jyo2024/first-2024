@@ -414,7 +414,6 @@ pull: download
 
 #Powershell:
 https://www.youtube.com/watch?v=ZOoCaWyifmI
-[https://www.youtube.com/watch?v=b7SGPchYRn0](https://www.youtube.com/watch?v=UVUd9_k9C6A)
 7.4.0 
 
 PS C:\Users\Jyothsna>   Set-ExecutionPolicy Restricted
@@ -444,9 +443,18 @@ Normal
 
 #For:
 $Names = @('Master', 'Blaster')
-For($Counter =0; $Counter -le ($Names.Length -1); $Counter++){
-	Write-Host "Hey super" @Names[$$ounter]
- }
+For($Counter =0; $Counter -le ($Names.Length - 1);$Counter++){
+	Write-Host "Hey super, Now" @Names[$Counter]
+}
+
+Foreach 
+Counter
+While
+counter
+Do
+
+
+ 
 
  Checkthis
 
@@ -468,7 +476,41 @@ In Powershell		Get-Command -CommandTyper Cmdlet
       			$Fellow.Set_time ("item4", "item3")
 	 		$Fellow.Remove("item3")
       			
-      			
+
+
+
+
+
+
+
+ #Webserver:
+ webclient when sends http request webserver immediately send http rsponse or file
+ or a static database which webserver send http response to client
+ or static databse is not present webserver will do that send servlet to application server it will contact application datastore then it wil send servlet response to the webserver
+ then the http response send a response to web client
+
+ apahce http server
+
+ application sever:
+ a server specifically designed to run applications
+ *running web applications
+ *Hosting  a hypervisor
+ *Distributing monintor software updates
+ *Processing data sent from anaother server
+
+ A reverse proxy is a proxy server that is accessible to the clients, therefore hiding the internal server. It acts as an intermediary as wherever any user makes requests to the web server for any data or file, the proxy server seizes those requests and then communicates with the webserver.
+
+ First, any web user is required to type the URL of the web page in the address bar of your web browser.
+With the help of the URL, your web browser will fetch the IP address of your domain name either by converting the URL via DNS (Domain Name System) or by looking for the IP in cache memory. The IP address will direct your browser to the web server.
+After making the connection, the web browser will request for the web page from the web server with the help of an HTTP request.
+As soon as the web server receives this request, it immediately responds by sending back the requested page or file to the web browser HTTP.
+If the web page requested by the browser does not exist or if there occurs some error in the process, the web server will return an error message.
+If there occurs no error, the browser will successfully display the webpage.
+ 
+
+ 
+ 
+ 
       
 
    
