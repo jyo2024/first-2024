@@ -527,7 +527,70 @@ If there occurs no error, the browser will successfully display the webpage.
 
   events is context and worker_connections are directives
 
-  Maven:
+  **Maven** 
+  Maven is a build tool which is used for java based projects it helps in getting the jar files for each project
+
+  Maven isntallation:
+  Java:
+  https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
+  maven download 
+  maven download apache 3.6
+    
+  Local
+  Remote: Download the dependencies
+  Central repository
+
+  First it will search for dependencies in local if its not there it seaaaaaarch for remote its not der it search for central repository
+
+  Basic concepts of maven:
+  POM:
+  It refers to the XML files that have all the information regarding project and configuration details
+  it is very important, maven searches for the pom in the current directory when any task is executed
+
+  Build profile:
+  set of configurations files that are required to build a project using diff configurations
+  Build plugins:
+  plugin refer to the group of goals these goals may or may not be the samephase
+
+  architecture:
+  **read pom.xml**
+  pom file
+  **dependencies 
+  plugins 
+  build profiles 
+  lifecycle pahses and goals**
+  maven repostory
+
+  how it work:
+  read pom.xml file
+  download the dependencies defined in pom into local repo from central 
+  create and generate a report acc to the requirements phases goals, plugins etc
+
+ maven build lifecycle:
+  default
+  clean
+  site
+
+  compile  compilation for source file
+  test-compile test compile for test cases
+  test   
+  package
+  integration test
+  verify
+  install
+  deploy deploy the artifcats to artifactory
+
+  maven helps manage all the processes such as building documentaion and releasing and distribution project management
+  download jar files
+  easy accesss
+  asy to add new dependency
+  
+  
+
+  
+
+  
+  
   
 
   
