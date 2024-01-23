@@ -584,6 +584,11 @@ If there occurs no error, the browser will successfully display the webpage.
   download jar files
   easy accesss
   asy to add new dependency
+
+  Database:
+  Any collection of related information
+
+  https://www.youtube.com/watch?v=HXV3zeQKqGY
   
   
 
